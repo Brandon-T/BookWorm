@@ -13,3 +13,11 @@
  *						Author : Brandon T.
  *						Contact: Brandon.T-@Live.com
  */
+
+package com.example.test;
+
+public interface UIThreadCallback {
+	void run();
+	boolean condition();
+	void onThreadFinish();
+}

@@ -1,4 +1,4 @@
-/**  Â© 2014, Brandon T. All Rights Reserved.
+/**  © 2014, Brandon T. All Rights Reserved.
  *
  *  This file is part of the BookWorm project.
  *  You may use this file only for your personal, and non-commercial use.
@@ -13,3 +13,9 @@
  *						Author : Brandon T.
  *						Contact: Brandon.T-@Live.com
  */
+
+package com.example.layout;
+
+enum TableCellTypes {
+	IMAGE, TEXT, VIEW
+}

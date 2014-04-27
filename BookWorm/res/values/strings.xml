@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ACTION-BAR & APP-Name -->
+    <string name="app_name">BookWorm</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_help">Help</string>
+    <string name="action_home">Home</string>
+
+    <!-- ACTIVITIES -->
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_results">Book List</string>
+
+    <!-- SETTINGS -->
+    <string name="save_settings">Save Settings</string>
+    <string name="select_campus_label">Please select a campus:</string>
+    <string name="select_semester_label">Please select a semester:</string>
+
+    <!-- HELP -->
+    <string name="help_welcome_label">Welcome To The Help Menu</string>
+    <string name="home_label">To return to the main screen, press the home button on the action-bar.</string>
+    <string name="help_campus_label">To change campus, press the settings button and select your campus.</string>
+    <string name="help_semester_label">To change semesters, press the settings button and select your semester.</string>
+
+    <!-- DEFAULT BOOKS -->
+    <string-array name="search_books">
+        <item>Book One</item>
+        <item>Book Two</item>
+        <item>Book Three</item>
+        <item>Book Four</item>
+        <item>Book Five</item>
+    </string-array>
+
+    <!-- SETTINGS SPINNERS -->
+    <string-array name="campus_spinner">
+        <item>Casaloma Campus</item>
+        <item>St. James Campus</item>
+        <item>Waterfront Campus</item>
+    </string-array>
+    <string-array name="campus_spinner_id">
+        <item>C</item>
+        <item>D</item>
+        <item>W</item>
+    </string-array>
+    <string-array name="semester_spinner">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    
+</resources>

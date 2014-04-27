@@ -13,3 +13,10 @@
  *						Author : Brandon T.
  *						Contact: Brandon.T-@Live.com
  */
+
+package com.example.test;
+
+
+public interface NetworkerCallback {
+	void onFinish(Networker networker);
+}

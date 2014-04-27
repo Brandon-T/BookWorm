@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".HelpActivity" >
+
+    <TextView
+        android:id="@+id/select_campus_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/campus_icon"
+        android:layout_alignTop="@+id/campus_icon"
+        android:layout_toRightOf="@+id/campus_icon"
+        android:gravity="center_horizontal|center"
+        android:text="@string/help_campus_label" />
+
+    <TextView
+        android:id="@+id/help_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/help_welcome_label"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/select_semester_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/schedule_icon"
+        android:layout_alignLeft="@+id/select_campus_label"
+        android:layout_alignTop="@+id/schedule_icon"
+        android:gravity="center_horizontal|center"
+        android:text="@string/help_semester_label" />
+
+    <ImageView
+        android:id="@+id/schedule_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/campus_icon"
+        android:layout_marginTop="46dp"
+        android:src="@drawable/schedule" />
+
+    <ImageView
+        android:id="@+id/campus_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/help_home_icon"
+        android:layout_below="@+id/help_home_icon"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/school" />
+
+    <ImageView
+        android:id="@+id/help_home_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/schedule_icon"
+        android:layout_alignRight="@+id/schedule_icon"
+        android:layout_below="@+id/help_label"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/home" />
+
+    <TextView
+        android:id="@+id/help_home_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/help_home_icon"
+        android:layout_alignTop="@+id/help_home_icon"
+        android:layout_toRightOf="@+id/help_home_icon"
+        android:gravity="center_horizontal|center"
+        android:text="@string/home_label" />
+
+</RelativeLayout>
